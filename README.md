@@ -1,24 +1,20 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/tekr69j1)
-# Final Project CS5610
+#Features implemented
 
-Login with your Northeastern credentials and read the project description [here](https://northeastern-my.sharepoint.com/:w:/g/personal/j_mitra_northeastern_edu/EVgJQzqalH9LlZQtMVDxz5kB7eZv2nBwIKFDFYxDMzgohg?e=EPjgIF).
-# Features implemented
+1. ask questions
 
-1. ask questions:
+2. provide answers
 
-2. provide answers:
+3. search for posts
 
-3. search for posts:
+4. tag posts
 
-4. tag posts:
+5. comment on questions and answers
 
-5. comment on questions and answers:
+6. vote on questions, answers, and comments
 
-6. vote on questions, answers, and comments:
+7. create their individual user profiles
 
-7. create their individual user profiles:
-
-8. authenticate registered users:
+8. authenticate registered users
 
 # Instructions to run
 
