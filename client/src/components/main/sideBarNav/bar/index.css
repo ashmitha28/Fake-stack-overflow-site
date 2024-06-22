@@ -1,0 +1,38 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items horizontally */
+    border-right: 1px solid black;
+    min-height: 250vh;
+    box-sizing: border-box; /* Include border in the width calculation */
+
+}
+
+.side-bar-link-inactive {
+    text-decoration: none;
+    color: rgb(58, 118, 223);
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: white;
+    display: inline-block;
+    transition: background 0.3s, border 0.3s, color 0.3s;
+}
+
+/* Selected styles for the <a> element */
+.side-bar-link-active {
+    text-decoration: none;
+    color:rgb(58, 118, 223);
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: lightgrey;
+    display: inline-block;
+    transition: background 0.3s, border 0.3s, color 0.3s;
+}
+
+.filter-container {
+    padding-top: 20px;
+}

@@ -1,0 +1,138 @@
+/* Add CSS stylesheet */
+/* ---------------------------------------------------- */
+/* main CSS */
+
+.mainbar {
+    flex: 1;
+    /* Take up remaining space */
+    background-color: white;
+    padding: 20px;
+}
+
+/* All questions heading panel */
+.main-header-container {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.question-heading-container {
+    padding-top: 5px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.num-tags {
+    flex: 10;
+    margin: 10;
+    align-items: left;
+}
+
+.question-title {
+    flex: 20;
+    /* margin-left: 100px; */
+    margin-right: 100;
+    align-items: center;
+
+}
+
+.ask-question-container {
+    right: 20px;
+    float: right;
+    display: 'flex';
+    justify-content: 'flex-end';
+}
+
+.askaquestion {
+    color: white;
+    background-color: #007BFF;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+    float: right;
+}
+
+.filter-container {
+    padding-top: 50px;
+    float: right;
+}
+
+.toggle-button {
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.toggle-button.selected {
+    background-color: grey;
+}
+
+/* -------------------------- */
+
+
+/* Question Panel */
+.tag-style {
+    color: black;
+  
+    border-radius: 3px;
+    background-color: lightgrey;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    text-decoration: none;
+
+}
+
+.separator {
+    margin-top: 20px;
+    border: none;
+    border-top: 4px solid black;
+}
+
+.question-container {
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: space-between;
+}
+
+.question-data-container {
+    height: 100vh;
+    overflow: auto;
+}
+
+
+.question-title {
+    text-decoration: none;
+}
+
+.postTitle {
+    width: 100%;
+    padding: 3px;
+
+}
+
+.postStats {
+    width: 100%;
+    padding: 3px;
+
+}
+
+.lastActivity {
+    width: 100%;
+    padding: 3px;
+
+}
+
+#data-container {
+    max-height: 300px;
+    overflow: auto;
+}

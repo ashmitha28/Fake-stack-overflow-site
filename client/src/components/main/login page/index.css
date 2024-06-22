@@ -1,0 +1,124 @@
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 0.875rem;
+    
+  }
+  
+  .signUpBox {
+    float: right;
+    height: 25px;
+    width: 150px
+  }
+  
+  .guiderText {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #007BFF;
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #0056b3; }
+  .button-row {
+    display: inline-flex;
+    gap: 20px;
+  }
+  
+  .signup-button {
+    background-color: #17a2b8;
+    height: 70px;
+    width: 100px;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .login-button {
+    background-color: #17a2b8;
+    height: 70px;
+    width: 100px;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .guest-button {
+    background-color: #17a2b8;
+    height: 70px;
+    width: 100px;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 0 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  .signup-button:hover, .login-button:hover, .guest-button:hover {
+    transform: scale(1.05); 
+}
+  .welcome-font {
+    font-style: italic;
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  .inline-content {
+    display: inline-flex;
+    margin-left: 10px
+  }
+  
+  .inline-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 0;
+  } 
+
+  
+  .signup-button, .login-button, .guest-button {
+    background-color: #ffffff;
+    color: #007BFF; 
+    height: 40px;
+    width: 150px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px; 
+    transition: all 0.3s ease; 
+  } 
+  .button-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60%; /* You might need to adjust this based on your design preference */
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border: 1px solid #ccc;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column; /* Changed this to stack buttons vertically */
+  align-items: center;
+  }
+  
+  .button-column {
+    flex: 1;
+    text-align: center;
+  }
+  
+  

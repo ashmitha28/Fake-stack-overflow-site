@@ -1,0 +1,115 @@
+/* ---------------------------------------------------- */
+/* main CSS */
+
+.mainbar {
+    flex: 1;
+    /* Take up remaining space */
+    background-color: white;
+    padding: 20px;
+}
+
+/* All questions heading panel */
+.main-header-container {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+
+.question-heading-container {
+    padding-top: 5px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.question-title {
+    flex: 20;
+    margin: 10;
+}
+
+.ask-question-container {
+    float: right;
+    padding-top: 20px;
+    flex: 1;
+    margin: auto;
+}
+
+.askquestion {
+    color: white;
+    background-color: rgb(58, 118, 223);
+    border-radius: 2px;
+    padding: 8px 12px;
+    cursor: pointer;
+    float: right;
+}
+
+.filter-container {
+    padding-top: 20px;
+}
+
+.joined-button {
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+
+
+
+.separator {
+    margin-top: 20px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+
+
+
+.tag-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.tag-link {
+    color: rgb(58, 118, 223);
+}
+
+.tagNode {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.tag-name {
+    font-weight: bold;
+}
+
+.tag-tag {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.tag-row {
+    display: flex;
+    /* Make the row a flex container */
+    justify-content: space-between;
+    /* Distribute items evenly within the row */
+    margin-bottom: 20px;
+    /* Add margin between rows as needed */
+
+    color: black;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.all-tags{
+   
+  align-items: center;     /* Centers content vertically */
+  padding-left: 350px;
+}

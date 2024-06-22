@@ -1,0 +1,62 @@
+.navbar {
+    overflow: hidden;
+    height: 90px;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    border: 4px black;
+    align-items: center;
+
+}
+
+.title-navbar {
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    padding-top: 3px;
+    font-weight: bold;
+    
+    color: black;
+}
+
+.search {
+    display: flex;
+    float: right;
+    padding-right: 10px;
+   
+    height: 30px;
+}
+
+.user-info {
+    float: right;
+    align-items: center;
+}
+
+#searchBar {
+    width: 250px;
+  
+    margin-right: 20px;
+}
+
+.logout-button {
+    background-color: rgb(60, 60, 181);
+    color: white;
+    border-color: rgb(60, 60, 181);
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.profile-button {
+    background-color: rgb(60, 60, 181);
+    color: white;
+    border-color: rgb(60, 60, 181);
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.name-title {
+    font-weight: bold;
+    font-style: italic;
+}

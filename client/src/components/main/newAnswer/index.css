@@ -1,0 +1,39 @@
+.container {
+     display: flex;
+    flex-direction: row;
+    height: 100vh; 
+}
+
+.mainbar {
+    flex: 1;
+   
+    background-color: white;
+    padding: 20px;
+}
+
+.form-headings {
+    font-size: larger;
+}
+
+#answerTextInput {
+    width: 400px;
+    height: 200px
+}
+
+#answerUsernameInput {
+    width: 400px;
+    height: 40px
+}
+
+.usernameText {
+    color: green;
+}
+
+
+#submit-button {
+    margin-top: 20;
+    background-color: rgb(58, 118, 223);
+    color: white;
+    width: 100px;
+    height: 40px
+}

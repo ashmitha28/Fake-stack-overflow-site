@@ -1,0 +1,77 @@
+.form-headings {
+    font-size: larger;
+}
+
+.form-desc {
+    font-style: italic;
+}
+
+#formTextInput {
+    width: 400px;
+    height: 200px
+}
+
+#formTitleInput {
+    width: 400px;
+    height: 40px
+}
+
+#formTagInput {
+    width: 400px;
+    height: 40px
+}
+
+#formUsernameInput {
+    width: 400px;
+    height: 40px
+}
+
+.usernameText {
+    color: green;
+}
+
+.desc {
+    color: lightslategray
+}
+
+
+.mainbar {
+    flex: 1;
+    /* Take up remaining space */
+    background-color: white;
+    padding: 20px;
+}
+
+.main-header-container {
+    width: 100%;
+    overflow: auto;
+}
+
+#submit-button {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px
+}
+
+#delete-button {
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px
+}
+
+.joined-button {
+    color: black;
+    border-color: black;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
